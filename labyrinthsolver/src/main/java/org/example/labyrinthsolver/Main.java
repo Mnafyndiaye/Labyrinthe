@@ -8,7 +8,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         LabyrinthView labyrinthView = new LabyrinthView();
-        Scene scene = new Scene(labyrinthView, 350, 450); // Hauteur augmentée pour le label et le bouton
+        Scene scene = new Scene(labyrinthView, 500, 500); // Taille ajustée pour le nouveau design
         primaryStage.setTitle("Labyrinth Solver");
         primaryStage.setScene(scene);
         primaryStage.show();

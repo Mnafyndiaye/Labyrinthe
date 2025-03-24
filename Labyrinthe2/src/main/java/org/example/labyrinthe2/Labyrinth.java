@@ -1,4 +1,4 @@
-package org.example.labyrinthsolver;
+package org.example.labyrinthe2;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -6,9 +6,9 @@ import java.util.*;
 
 // Classe principale pour gérer la logique du labyrinthe (génération, chargement, résolution)
 public class Labyrinth {
-    private char[][] maze; //
-    private int rows, cols; //
-    private int startX, startY, endX, endY;
+    private char[][] maze; // Tableau 2D représentant le labyrinthe
+    private int rows, cols; // Dimensions du labyrinthe (lignes et colonnes)
+    private int startX, startY, endX, endY; // Coordonnées du départ (S) et de la sortie (E)
     private Random random = new Random(); // Générateur de nombres aléatoires
 
     // Constructeur qui initialise le labyrinthe avec un tableau donné

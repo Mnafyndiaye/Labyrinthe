@@ -1,4 +1,4 @@
-package org.example.labyrinthsolver;
+package org.example.labyrinthe2;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

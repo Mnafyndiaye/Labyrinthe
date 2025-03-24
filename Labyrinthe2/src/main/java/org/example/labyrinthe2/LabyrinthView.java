@@ -1,4 +1,4 @@
-package org.example.labyrinthsolver;
+package org.example.labyrinthe2;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -27,9 +27,9 @@ public class LabyrinthView extends BorderPane {
     private Canvas canvas; // Canvas pour dessiner le labyrinthe
     private Labyrinth labyrinth; // Instance de la classe Labyrinth pour la logique
     private final int cellSize = 25; // Taille d'une cellule du labyrinthe (réduite pour 19x19)
-    private char[][] maze;
-    private Label messageLabel;
-    private boolean isDarkTheme = false;
+    private char[][] maze; // Tableau 2D représentant le labyrinthe
+    private Label messageLabel; // Label pour afficher les messages (succès, erreurs, etc.)
+    private boolean isDarkTheme = false; // État du thème (clair par défaut)
 
     // Classe interne pour stocker les styles des thèmes (clair et sombre)
     private static class ThemeStyles {
